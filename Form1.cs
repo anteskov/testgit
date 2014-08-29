@@ -21,5 +21,10 @@ namespace testgit
         {
             MessageBox.Show("this is test change");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
